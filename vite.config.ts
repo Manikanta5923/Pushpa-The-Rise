@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    // GitHub Pages serves this repo at /Pushpa-The-Rise/ when built in Actions.
+    base: process.env.GITHUB_ACTIONS ? '/Pushpa-The-Rise/' : '/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
