@@ -1,0 +1,6 @@
+{
+  "name": "RED TRAIL: Forest Smuggler",
+  "description": "A cinematic top-down stealth and cargo smuggling action-strategy game set in dense red sandalwood forests. Harvest rare timber, evade police checkpoints and rival gangs, drive rugged cargo trucks, and reach the extraction zone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
